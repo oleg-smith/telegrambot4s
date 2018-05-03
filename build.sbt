@@ -80,10 +80,10 @@ lazy val examples: Project =
   lazy val library =
   new {
     object Version {
-      val akkaVersion  = "2.4.19"
+      val akkaVersion  = "2.4.20"
       val akkaActor    = akkaVersion
       val akkaStream   = akkaVersion
-      val akkaHttp     = "10.0.10"
+      val akkaHttp     = "10.0.11"
       val json4s       = "3.5.3"
       val scalaTest    = "3.0.3"
       val scalajHttp   = "2.3.0"
@@ -118,7 +118,7 @@ lazy val commonSettings =
   Seq(
     organization := "info.mukel",
     organizationName := "Alfonso² Peterssen",
-    scalaVersion := "2.12.3",
+    scalaVersion := "2.11.8",
     crossScalaVersions := Seq(scalaVersion.value, "2.11.11"),
     startYear := Some(2015),
     licenses += ("Apache-2.0", url("http://www.apache.org/licenses/LICENSE-2.0")),
